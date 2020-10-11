@@ -46,7 +46,6 @@ img {
     margin-top: 200px;
     margin-left: 140px;
     position: absolute;
-
 }
 
 .intro-title {
@@ -353,11 +352,6 @@ li.number-timeline-active::before {
         order: 2;
     }
 
-    .intro-title {
-        font-size: 40px;
-        line-height: 44px;
-    }
-
     .arrow-down {
         left: 42%;
     }
@@ -372,32 +366,39 @@ li.number-timeline-active::before {
     }
 }
 
-@media (max-width: 426px) {
+@media (min-width: 425px) and (max-width: 768px){
     .inner-content {
         margin-top: 200px;
-        margin-left: 80px;
+        margin-left: 30px;
     }
-
+    
     .forest-img-left {
         width: 100%;
     }
 
     .intro-title {
-        font-size: 43px;
-        line-height: 46px;
-    }
-
-    .inner-content {
-        margin-top: 240px;
-        margin-left: 120px;
+        font-size: 46px;
+        line-height: 1.2;
     }
 
 }
 
-@media (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 425px){
+    .intro-title {
+        font-size: 43px;
+        line-height: 1.2;
+    }
+
+    .inner-content {
+        margin-top: 200px;
+        margin-left: 25px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px){
     .intro-title {
         font-size: 37px;
-        line-height: 43px;
+        line-height: 1.2;
     }
 
     .intro-subtitle {
@@ -409,3 +410,4 @@ li.number-timeline-active::before {
         margin-left: 20px;
     }
 }
+
