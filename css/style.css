@@ -248,7 +248,7 @@ li.number-timeline-active::before {
     margin: 15px 0px;
     max-width: 480px;
     line-height: 24px;
-    font-family: 'Garamond';
+    font-family: 'Garamond', arial;
 }
 
 @media (min-width: 1000px) and (max-width: 1500px) {
