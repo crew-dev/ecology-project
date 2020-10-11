@@ -6,6 +6,8 @@ body {
     padding: 0;
 }
 
+@import url(https://allfont.ru/allfont.css?fonts=garamond);
+
 a {
     text-decoration: none;
 }
