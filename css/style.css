@@ -117,7 +117,7 @@ li.number-timeline-active::before {
     background-color: transparent;
     color: #fff;
     padding: 12px;
-    font-size: 14px;
+    font-size: 16px;
     outline: none;
     cursor: pointer;
     font-family: 'HelveticaNeueCyr';
@@ -306,15 +306,15 @@ li.number-timeline-active::before {
         order: 3;
     }
     .intro-title {
-        font-size: 43px;
-        line-height: 47px;
+        font-size: 62px;
+        line-height: 64px;
     }
     .intro-subtitle {
-        font-size: 18px;
+        font-size: 20px;
     }
     .inner-content {
-        margin-top: 200px;
-        margin-left: 45px;
+        margin-top: 335px;
+        margin-left: 120px;
     }
     .header-main {
         font-size: 26px;
