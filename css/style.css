@@ -294,12 +294,10 @@ li.number-timeline-active::before {
     }    
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .inner-content {
         margin-top: 200px;
         margin-left: 80px;
-    }
-    .forest-paragraphs-left {
     }
     .forest-img-left {
         width: 70%;
