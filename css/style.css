@@ -6,8 +6,6 @@ body {
     padding: 0;
 }
 
-@import url(https://allfont.ru/allfont.css?fonts=garamond);
-
 a {
     text-decoration: none;
 }
@@ -244,7 +242,7 @@ li.number-timeline-active::before {
 }
 
 .forest-paragraph {
-    font-size: 17px;
+    font-size: 16px;
     margin: 15px 0px;
     max-width: 480px;
     line-height: 24px;
