@@ -32,3 +32,10 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Garamond Premier Pro';
+	src: url('../fonts/Garamond-Premier-Pro.ttf');
+	font-weight: 'regular';
+	font-style: normal;
+}
+

@@ -23,13 +23,13 @@ img {
 
 .wrapper {
     margin: 0px auto;
+    max-width: 1240px;
 }
 
 .video {
     width: 100%;
     height: 100%;
 }
-
 
 .container-img {
     background: url('../img/trees-nature.jpg');
@@ -155,8 +155,6 @@ li.number-timeline-active::before {
     }
 }
 
-/*  */
-
 .wrapper-paragraph {
     display: flex;
     flex-direction: column;
@@ -172,11 +170,9 @@ li.number-timeline-active::before {
     color: #303C26;
     letter-spacing: 1px;
     line-height: 30px;
-    padding-top: 65px;
-    margin-left: 140px;
     font-family: 'HelveticaNeueCyr';
     font-weight: 400;
-    margin-bottom: 55px;
+    margin-bottom: 60px;
 }
 
 #betony::first-letter {
@@ -191,21 +187,14 @@ li.number-timeline-active::before {
     clear: right;
 }
 
-.forest-wrapper {
-    padding: 70px 0px;
+.forest-content {
+    padding: 50px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.forest-wrapper-2 {
-    padding: 70px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.forest-wrapper:nth-child(2) {
+.forest-content:nth-child(2) {
     padding: 0px;
 }
 
@@ -223,43 +212,29 @@ li.number-timeline-active::before {
 .forest-img-left {
     display: flex;
     width: 40%;
-    padding-right: 30px;
 }
 
 .forest-paragraphs-left {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 145px;
-    margin-right: 30px;
 }
 
 .forest-paragraphs-right {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-right: 288px;
 }
 
 .forest-paragraph {
-    font-size: 16px;
+    font-size: 17px;
     margin: 15px 0px;
     max-width: 480px;
     line-height: 24px;
-    font-family: 'Garamond', arial;
-}
-
-@media (min-width: 1000px) and (max-width: 1500px) {
-    .forest-paragraphs-right {
-        margin-right: 145px;
-    }
+    font-family: 'Garamond Premier Pro';
 }
 
 @media (max-width: 1280px) {
-    .forest-paragraphs-right {
-        margin-right: 50px;
-    }
-
     .forest-img-left {
         display: flex;
         width: 43%;
@@ -278,12 +253,6 @@ li.number-timeline-active::before {
 @media (max-width: 1050px) {
     .timeline-right {
         display: none;
-    }
-}
-
-@media (min-width: 1850px) {
-    .forest-paragraphs-right {
-        margin-right: 445px;
     }
 }
 
@@ -333,7 +302,7 @@ li.number-timeline-active::before {
         padding: 0px;
     }
 
-    .forest-wrapper {
+    .forest-content {
         padding: 22px 0px;
         display: flex;
         flex-direction: column;
@@ -414,5 +383,15 @@ li.number-timeline-active::before {
         padding: 0px;
         order: 3;
     }
+}
+
+.damage {
+   
+}
+
+.damage-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: url('../img/damage.png');
 }
 
