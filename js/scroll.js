@@ -3,5 +3,5 @@ $('a[href^="#"').on('click', function() {
   $('html, body').animate({
       scrollTop: $(href).offset().top
   });
-  return false;
+	return false; 
 });
