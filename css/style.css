@@ -244,7 +244,7 @@ li.number-timeline-active::before {
     background: url('../img/damage.png') no-repeat;
     background-size: cover;
     width: 100%;
-    position: absolute;
+    position: relative;
 		min-height: 939px;
 }
 
@@ -333,6 +333,70 @@ li.number-timeline-active::before {
 	transform: rotate(135deg);
 }
 
+.solve-problems {
+	display: flex;
+	padding-top: 160px;
+}
+
+.headline {
+	display: flex;
+	justify-content: space-between;
+}
+
+.headline-img {
+	max-width: 20%;
+	padding: 20px;
+}
+
+.headline-disk {
+	display: flex;
+	flex-direction: column;
+}
+
+.headline-title {
+	display: flex;
+	font-size: 32px;
+	font-family: 'HelveticaNeueCyr';
+	font-weight: 400;
+	color: #303c26;
+}
+
+.headline-subtitle {
+	font-size: 19px;
+	line-height: 1.4;
+	padding-top: 100px;
+	max-width: 450px;
+	font-family: 'Garamond Premier Pro';
+}
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 120px;
+}
+
+.feature-card {
+	display: flex;
+	flex-basis: 30%;
+	padding-bottom: 120px;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.features-card-desc {
+	font-size: 18px;
+	max-width: 350px;
+	line-height: 1.4;
+	font-family: 'Garamond Premier Pro';
+	color: #0e1817;
+	padding-top: 30px;
+}
+
+.features-card-img {
+	max-width: 60px;
+}
 
 @media (max-width: 1280px) {
 	.forest-img-left {
@@ -361,6 +425,10 @@ li.number-timeline-active::before {
 		margin-top: 200px;
 		margin-left: 80px;
 	}
+
+	.feature-card {
+    flex-basis: 200px;
+}
 
 	.forest-img-left {
 		width: 70%;
@@ -463,12 +531,15 @@ li.number-timeline-active::before {
 		font-size: 37px;
 		line-height: 1.2;
 	}
+
 	.damage-wrapper {
 		padding: 32px;
 	}
+
 	.intro-subtitle {
 		font-size: 16px;
 	}
+
 	.inner-content {
 		margin-top: 200px;
 		margin-left: 20px;
@@ -483,6 +554,7 @@ li.number-timeline-active::before {
 		padding: 0px;
 		order: 3;
 	}
+
 	.damage-wrapper {
 		padding: 50px;
 	}
@@ -492,9 +564,11 @@ li.number-timeline-active::before {
 	.damage-content {
 		flex-direction: column;
 	}
+
 	.number-important {
 		font-size: 85px;
 	}
+
 	.damage-subtitle {
 		font-size: 25px;
 	}
