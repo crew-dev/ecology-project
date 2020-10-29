@@ -427,7 +427,7 @@ li.number-timeline-active::before {
 	}
 
 	.feature-card {
-    flex-basis: 200px;
+    flex-basis: 300px;
 }
 
 	.forest-img-left {
@@ -571,5 +571,9 @@ li.number-timeline-active::before {
 
 	.damage-subtitle {
 		font-size: 25px;
+	}
+
+	.solve-problems {
+		display: none;
 	}
 }
