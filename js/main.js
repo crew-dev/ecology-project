@@ -6,6 +6,6 @@ var instance = new vidbg('#video', {
 
 $(function(){
 $(".damage-arrow-down").elimore({
-maxLength: 193
+maxLength: 120
 });
 });
