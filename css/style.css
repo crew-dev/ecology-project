@@ -344,8 +344,8 @@ li.number-timeline-active::before {
 }
 
 .headline-img {
-	max-width: 20%;
-	padding: 20px;
+	max-width: 22%;
+	padding: 0px 20px;
 }
 
 .headline-disk {
@@ -364,7 +364,7 @@ li.number-timeline-active::before {
 .headline-subtitle {
 	font-size: 19px;
 	line-height: 1.4;
-	padding-top: 100px;
+	padding-top: 80px;
 	max-width: 450px;
 	font-family: 'Garamond Premier Pro';
 }
@@ -491,7 +491,7 @@ li.number-timeline-active::before {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.inner-content {
 		margin-top: 200px;
 		margin-left: 30px;
@@ -504,17 +504,32 @@ li.number-timeline-active::before {
 	.damage-content {
 		flex-direction: column;
 	}
-
+	.headline {
+		flex-direction: column;
+		align-items: center;
+	}
+	.headline-img {
+		max-width: 60%;
+		padding: 0px 0px 30px 0px;
+		margin: 0px auto;
+	}
 	.number-important {
 		font-size: 85px;
 	}
-
+	.headline-title {
+		display: flex;
+		font-size: 26px;
+		margin: 0px auto;
+	}
+	.headline-subtitle {
+		padding: 50px 20px 0px 20px;
+	}
 	.damage-subtitle {
 		font-size: 25px;
 	}
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
 	.intro-title {
 		font-size: 43px;
 		line-height: 1.2;
@@ -523,6 +538,28 @@ li.number-timeline-active::before {
 	.inner-content {
 		margin-top: 200px;
 		margin-left: 25px;
+	}
+	.forest-img-left {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 0px;
+		order: 3;
+	}
+
+	.headline-img {
+		max-width: 100%;
+		padding: 0px 0px 30px 0px;
+		margin: 0px auto;
+	}
+
+	.headline-subtitle {
+		padding-top: 50px;
+		padding: 50px 20px 0px 20px;
+		max-width: 100%;
+	}
+	.damage-wrapper {
+		padding: 50px;
 	}
 }
 
@@ -543,36 +580,5 @@ li.number-timeline-active::before {
 	.inner-content {
 		margin-top: 200px;
 		margin-left: 20px;
-	}
-}
-
-@media (max-width: 426px) {
-	.forest-img-left {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		padding: 0px;
-		order: 3;
-	}
-	.headline-img {
-		max-width: 100%;
-		padding: 0px 0px 30px 0px;
-		margin: 0px auto;
-	}
-	.headline {
-		flex-direction: column;
-	}
-	.headline-subtitle {
-		padding-top: 50px;
-		padding: 50px 20px 0px 20px;
-		max-width: 100%;
-	}
-	.headline-title {
-		display: flex;
-		font-size: 26px;
-		margin: 0px auto;
-	}
-	.damage-wrapper {
-		padding: 50px;
 	}
 }
