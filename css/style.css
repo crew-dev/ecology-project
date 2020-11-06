@@ -211,7 +211,8 @@ li.number-timeline-active::before {
 
 .forest-img-left {
     display: flex;
-    width: 40%;
+		width: 40%;
+		height: ;
 }
 
 .forest-paragraphs-left {
@@ -540,6 +541,7 @@ li.number-timeline-active::before {
 	}
 	.forest-img-left {
 		width: 100%;
+		height: max-content;
 		display: flex;
 		justify-content: center;
 		padding: 0px;
