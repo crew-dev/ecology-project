@@ -392,28 +392,30 @@ li.number-timeline-active::before {
 }
 
 /* Support */
-.support {
+.support-people {
 	padding-top: 160px;
+	padding-bottom: 160px;
 }
 
-.feedback {
+.support {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	cursor: grab;
 }
 
-.wrapper-feedback {
+.wrapper-support {
 	max-width: 860px;
 	margin: 0px auto;
 	padding: 0 20px;
 }
 
-.feedback-card{
+.support-card{
 	display: flex;
 	flex-direction: column;
 }
 
-.feedback-img{
+.support-img-1{
 	width: 260px;
 	height: 260px;
 	margin-right: 100px;
@@ -425,13 +427,37 @@ li.number-timeline-active::before {
 	border-radius: 50%;
 }
 
-.feedback-title {
+.support-img-2{
+	width: 260px;
+	height: 260px;
+	margin-right: 100px;
+	background-color: #fff;
+	background-image: url(../img/di\ caprio.jpeg);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-size: 100%;
+	border-radius: 50%;
+}
+
+.support-img-3 {
+	width: 260px;
+	height: 260px;
+	margin-right: 100px;
+	background-color: #fff;
+	background-image: url(../img/edrian.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-size: 100%;
+	border-radius: 50%;
+}
+
+.support-title {
 	font-size: 30px;
 	font-family: 'HelveticaNeueCyr';
 	color: #303c26;
 }
 
-.feedback-header {
+.support-header {
 	font-size: 30px;
 	color: #303C26;
 	letter-spacing: 1px;
@@ -441,13 +467,13 @@ li.number-timeline-active::before {
 	margin-bottom: 90px;
 }
 
-.feedback-description{
+.support-description{
 	max-width: 450px;
 	line-height: 1.4;
 	font-family: 'Garamond Premier Pro';
 }
 
-.feedback-line {
+.support-line {
 	margin: 27px 0 27px;
 	content: "";
 	width: 56px;
@@ -547,7 +573,9 @@ li.number-timeline-active::before {
 	.intro-subtitle {
 		font-size: 18px;
 	}
-	.feedback-img {
+	.support-img-1,
+	.support-img-2,
+	.support-img-3 {
 		width: 210px;
 		height: 200px;
 	}
@@ -589,24 +617,26 @@ li.number-timeline-active::before {
 	.damage-subtitle {
 		font-size: 25px;
 	}
-	.feedback {
+	.support {
     display: flex;
     flex-direction: column;
 }
-	.feedback-card {
+	.support-card {
 		display: flex;
 		align-items: center;
 	}
-	.feedback-img {
+	.support-img-1,
+	.support-img-2,
+	.support-img-3 {
 		width: 240px;
 		height: 240px;
 		margin-right: 0px;
 		margin-bottom: 20px;
 	}
-	.feedback-header {
+	.support-header {
 		text-align: center;
 	}
-	.feedback-header {
+	.support-header {
 		margin-bottom: 50px;
 	}
 }
@@ -641,7 +671,9 @@ li.number-timeline-active::before {
 	.damage-wrapper {
 		padding: 50px;
 	}
-	.feedback-img {
+	.support-img-1,
+	.support-img-2,
+	.support-img-3 {
 		width: 190px;
 		height: 190px;
 		margin-right: 0px;
