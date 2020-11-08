@@ -97,7 +97,6 @@ li.number-timeline-active::before {
     background-color: #fff;
 }
 
-
 .number-timeline:hover::before {
     content: "";
     width: 22px;
@@ -445,7 +444,6 @@ li.number-timeline-active::before {
 .feedback-description{
 	max-width: 450px;
 	line-height: 1.4;
-	color: #303c26;
 	font-family: 'Garamond Premier Pro';
 }
 
