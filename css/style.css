@@ -699,4 +699,7 @@ li.number-timeline-active::before {
 		margin-top: 200px;
 		margin-left: 20px;
 	}
+	.support-title {
+		font-size: 25px;
+	}
 }
