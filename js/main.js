@@ -1,9 +1,16 @@
 var instance = new vidbg('#video', {
-    webm: "video/forest.webm",
-    poster: "video/forest.jpg", 
+		webm: "video/forest.webm",
+		mp4: "../video/forest.mp4",
+    poster: "../video/video-poster.jpg", 
     overlay: true, 
 	});
-
+	  AOS.init({
+    disable: function() {
+      var maxWidth = 768;
+      return window.innerWidth < maxWidth;
+    }
+	});
+	
 $(function(){
 $(".damage-arrow-down").elimore({
 maxLength: 120

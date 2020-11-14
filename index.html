@@ -10,28 +10,7 @@
     <link rel="stylesheet" href="css/vidbg.css">
 		<link rel="stylesheet" href="css/font-family.css">
 		<link rel="stylesheet" href="css/swiper-bundle.min.css">
-
-		<script type="text/javascript">
-			(function (m, e, t, r, i, k, a) {
-				m[i] = m[i] || function () {
-					(m[i].a = m[i].a || []).push(arguments)
-				};
-				m[i].l = 1 * new Date();
-				k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-			})
-			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-			ym(69155833, "init", {
-				clickmap: true,
-				trackLinks: true,
-				accurateTrackBounce: true,
-				webvisor: true,
-				ecommerce: "dataLayer"
-			});
-		</script>
-		<noscript>
-			<div><img src="https://mc.yandex.ru/watch/69155833" style="position:absolute; left:-9999px;" alt="" /></div>
-		</noscript>
-		
+		<link rel="stylesheet" href="css/aos.css">
 </head>
 <body>
     <div class="video-overlay">
@@ -59,10 +38,13 @@
                 </ul>
             </div>
             <div class="inner-content">
-                <div class="intro-title">Экологическая <br> катастрофа <br> 21 века</div>
-                <div class="intro-subtitle">Вырубая лес, мы убиваем наш мир</div>
+                <div class="intro-title" aos-init aos-animate" data-aos="fade-left" data-aos-delay="250">Экологическая
+                	<br> катастрофа <br> 21 века</div>
+                <div class="intro-subtitle" aos-init aos-animate" data-aos="fade-left" data-aos-delay="450">Вырубая лес,
+                	мы убиваем наш мир</div>
                 <a href="#forest-2">
-                    <button class="btn-intro">Подробнее</button>
+                    <button class="btn-intro" aos-init aos-animate" data-aos="fade-left"
+                    	data-aos-delay="650">Подробнее</button>
                 </a>
             </div>
             <div class="arrow-down">
@@ -76,7 +58,7 @@
 <section class="section" id="forest-2">
     <div class="forest-content">
         <div class="wrapper">
-            <div class="header-main">Значение лесов для человечества</div>
+            <div class="header-main" >Значение лесов для человечества</div>
             <div class="forest-paragraphs-left">
                 <div class="forest-paragraph" id="betony">
                     Лес является не просто скоплением деревьев, а сложной экосистемой, объединяющей растения, животных,
@@ -99,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <div class="forest-img-right">
+        <div class="forest-img-right" aos-init aos-animate" data-aos="fade-in" data-aos-delay="100">
         	<picture>
         		<source srcset="img/smoke-forest.webp" type="image/webp">
         		<img src="img/smoke-forest.jpg" alt="smoke-forest">
@@ -318,5 +300,6 @@
 <script src="js/scroll.js"></script>
 <script src="js/vidbg.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
+<script src="js/aos.js"></script>
 <script src="js/main.js"></script>
 </html>
