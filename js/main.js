@@ -1,7 +1,7 @@
 var instance = new vidbg('#video', {
+		poster: "../video/video-poster.jpg", 
 		webm: "video/forest.webm",
 		mp4: "../video/forest.mp4",
-    poster: "../video/video-poster.jpg", 
     overlay: true, 
 	});
 	  AOS.init({
