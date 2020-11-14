@@ -646,12 +646,16 @@ li.number-timeline-active::before {
 		font-size: 43px;
 		line-height: 1.2;
 	}
+	.damage-info {
+		margin-top: 0px;
+	}
 	.inner-content {
 		margin-top: 200px;
 		margin-left: 25px;
 	}
 	.forest-img-left {
-		width: 90%;
+		width: 100%;
+		height: 330px;
 		order: 3;
 	}
 	.headline-img {
