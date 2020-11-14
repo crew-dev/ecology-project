@@ -652,10 +652,6 @@ li.number-timeline-active::before {
 	}
 	.forest-img-left {
 		width: 100%;
-		height: max-content;
-		display: flex;
-		justify-content: center;
-		padding: 0px;
 		order: 3;
 	}
 	.headline-img {
