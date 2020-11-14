@@ -2,7 +2,8 @@ var instance = new vidbg('#video', {
 		poster: "../video/video-poster.jpg", 
 		webm: "video/forest.webm",
 		mp4: "../video/forest.mp4",
-    overlay: true, 
+		overlay: true, 
+		playsInline: true
 	});
 	  AOS.init({
     disable: function() {
