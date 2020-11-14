@@ -1,17 +1,10 @@
-var instance = new vidbg('#video', {
-		poster: "../video/video-poster.jpg", 
-		webm: "video/forest.webm",
-		mp4: "../video/forest.mp4",
-		overlay: true, 
-	},{
-	const: defaultAttributes = {
-  autoplay: true,
-  controls: false,
-  loop: true,
-  muted: true,
+	var instance = new vidbg('#video', {
+  mp4: "video/forest.mp4", // URL or relative path to MP4 video
+  webm: "video/forest.webm", // URL or relative path to webm video
+  poster: "video/video-poster.jpg", // URL or relative path to fallback image
+}, {
   playsInline: true
-}
-	});
+})
 	
 	  AOS.init({
     disable: function() {
