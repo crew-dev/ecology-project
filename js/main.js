@@ -4,7 +4,13 @@ var instance = new vidbg('#video', {
 		mp4: "../video/forest.mp4",
 		overlay: true, 
 	},{
-		playsInline: true
+	const: defaultAttributes = {
+  autoplay: true,
+  controls: false,
+  loop: true,
+  muted: true,
+  playsInline: true
+}
 	});
 	
 	  AOS.init({
