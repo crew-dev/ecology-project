@@ -702,4 +702,7 @@ li.number-timeline-active::before {
 	.support-title {
 		font-size: 25px;
 	}
+	.support-header {
+		font-size: 28px;
+	}
 }
