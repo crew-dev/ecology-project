@@ -3,8 +3,10 @@ var instance = new vidbg('#video', {
 		webm: "video/forest.webm",
 		mp4: "../video/forest.mp4",
 		overlay: true, 
+	},{
 		playsInline: true
 	});
+	
 	  AOS.init({
     disable: function() {
       var maxWidth = 768;
