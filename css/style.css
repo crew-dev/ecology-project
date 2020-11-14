@@ -210,7 +210,7 @@ li.number-timeline-active::before {
 .forest-img-left {
     display: flex;
 		width: 40%;
-		object-fit: cover;
+		object-fit: contain;
 }
 
 .forest-paragraphs-left {
