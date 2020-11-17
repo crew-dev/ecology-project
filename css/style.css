@@ -4,6 +4,7 @@ body {
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
+		overflow-x: hidden;
 		font-size: 18px;
 		color: #0e1817;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -11,6 +12,18 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.elimore_hide {
+	padding: 8px;
+	width: 2px;
+	height: 2px;
+	margin: 30px auto 0px;
+	font-size: 0px;
+	border-top: 2px solid rgb(255, 255, 255);
+	border-right: 2px solid rgb(255, 255, 255);
+	transform: rotate(-45deg);
+	display: none;
 }
 
 img {
@@ -238,7 +251,7 @@ li.number-timeline-active::before {
 }
 
 .damage-full-img {
-    background: url('../img/damage.png') no-repeat;
+    background: url('../img/jpg[png]/damage.jpg') no-repeat;
     background-size: cover;
     width: 100%;
     position: relative;
@@ -256,7 +269,7 @@ li.number-timeline-active::before {
 	flex-direction: column;
 	margin-top: 70px;
 	max-width: 607px;
-	min-height: 792px;
+	min-height: 710px;
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -316,7 +329,7 @@ li.number-timeline-active::before {
 	font-family: 'Garamond Premier Pro';
 }
 
-.damage-arrow-down>a {
+.elimore_show {
 	display: block;
 	padding: 8px;
 	width: 2px;
@@ -327,6 +340,19 @@ li.number-timeline-active::before {
 	border-top: 2px solid #fff;
 	border-right: 2px solid #fff;
 	transform: rotate(135deg);
+}
+
+.elimore_hide {
+	display: block;
+	padding: 8px;
+	width: 2px;
+	height: 2px;
+	margin: 0 auto;
+	font-size: 0;
+	margin-top: 30px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transform: rotate(-45deg);
 }
 
 .solve-problems {
@@ -420,7 +446,7 @@ li.number-timeline-active::before {
 	height: 260px;
 	margin-right: 100px;
 	background-color: #fff;
-	background-image: url(../img/feedback-img-1.jpg);
+	background-image: url(../img/jpg[png]/pitt.jpg);
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-size: 100%;
@@ -432,7 +458,7 @@ li.number-timeline-active::before {
 	height: 260px;
 	margin-right: 100px;
 	background-color: #fff;
-	background-image: url(../img/di\ caprio.jpeg);
+	background-image: url(../img/jpg[png]/di\ caprio.jpeg);
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-size: 100%;
@@ -444,7 +470,7 @@ li.number-timeline-active::before {
 	height: 260px;
 	margin-right: 100px;
 	background-color: #fff;
-	background-image: url(../img/edrian.jpg);
+	background-image: url(../img/jpg[png]/edrian.jpg);
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-size: 100%;

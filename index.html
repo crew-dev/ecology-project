@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +14,7 @@
 <body>
     <div class="video-overlay">
         <div class="video" id="video">
-            <div class="timeline-right">
+            <div class="timeline-right" aos-init aos-animate" data-aos="fade-left" data-aos-delay="450">
                 <ul class="timeline">
                     <a href="#forest-1">
                         <li class="number-timeline-active">01</li>
@@ -38,18 +37,17 @@
                 </ul>
             </div>
             <div class="inner-content">
-                <div class="intro-title" aos-init aos-animate" data-aos="fade-left" data-aos-delay="250">Экологическая
+                <div class="intro-title" aos-init aos-animate" data-aos="fade-left" data-aos-delay="600">Экологическая
                 	<br> катастрофа <br> 21 века</div>
-                <div class="intro-subtitle" aos-init aos-animate" data-aos="fade-left" data-aos-delay="450">Вырубая лес,
+                <div class="intro-subtitle" aos-init aos-animate" data-aos="fade-left" data-aos-delay="800">Вырубая лес,
                 	мы убиваем наш мир</div>
                 <a href="#forest-2">
-                    <button class="btn-intro" aos-init aos-animate" data-aos="fade-left"
-                    	data-aos-delay="650">Подробнее</button>
+                    <button class="btn-intro" aos-init aos-animate" data-aos="fade-left" data-aos-delay="1000">Подробнее</button>
                 </a>
             </div>
             <div class="arrow-down">
                 <a href="#forest-2" class="arrow-down">
-                    <div class="arrow-down__blink-1"><img src="img/arrow-down.svg"></div>
+                    <div class="arrow-down__blink-1"><img src="img/svg/arrow-down.svg"></div>
                 </a>
             </div>
         </div>
@@ -58,8 +56,9 @@
 <section class="section" id="forest-2">
     <div class="forest-content">
         <div class="wrapper">
-            <div class="header-main" >Значение лесов для человечества</div>
-            <div class="forest-paragraphs-left">
+						<div class="header-main" aos-init aos-animate" data-aos-once="true" data-aos="fade-right" data-aos-duration="600" 
+						data-aos-delay="350">Значение лесов для человечества</div>
+            <div class="forest-paragraphs-left" aos-init aos-animate" data-aos-once="true" data-aos-duration="600" data-aos="fade-right" data-aos-once="true" data-aos-delay="450">
                 <div class="forest-paragraph" id="betony">
                     Лес является не просто скоплением деревьев, а сложной экосистемой, объединяющей растения, животных,
                     грибы, и микроорганизмы и воздействующей на климат, состояние питьевой воды, чистоту воздуха.
@@ -81,10 +80,10 @@
                 </div>
             </div>
         </div>
-        <div class="forest-img-right" aos-init aos-animate" data-aos="fade-in" data-aos-delay="100">
+        <div class="forest-img-right" aos-init aos-animate" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="350"> 
         	<picture>
-        		<source srcset="img/smoke-forest.webp" type="image/webp">
-        		<img src="img/smoke-forest.jpg" alt="smoke-forest">
+        		<source srcset="img/webp/smoke-forest.webp" type="image/webp">
+        		<img src="img/jpg[png]/smoke-forest.jpg" alt="smoke-forest">
 					</picture>
 					</div>
 </section>
@@ -92,9 +91,13 @@
 
 <section class="section">
     <div class="forest-content">
-        <div class="forest-img-left"><img src="img/img-plants.png" alt="img-plants"></div>
+			<div class="forest-img-left" aos-init aos-animate" data-aos="fade-down" data-aos-once="true" data-aos-duration="600" data-aos-delay="350">
+			<picture>
+        		<source srcset="img/webp/img-plants.webp" type="image/webp">
+        		<img src="img/jpg[png]/img-plants.png" alt="img-plants"></div>
+			</picture>
         <div class="wrapper">
-            <div class="forest-paragraphs-right"> 
+            <div class="forest-paragraphs-right" aos-init aos-animate" data-aos-once="true" data-aos-duration="600" data-aos="fade-left" data-aos-delay="450"> 
                 <div class="forest-paragraph" id="betony">
                     Благодаря фотосинтезу леса дарят нам кислород для дыхания, поглощая при этом углекислый газ. Деревья
                     защищают воздух воздух от ядовитых газов, копоти и других загрязнений, шума. Фитонциды,
@@ -122,21 +125,21 @@
             <div class="damage-content">
                 <div class="damage-info">
 									<div class="damage-wrapper">
-										<div class="damage-title">Ущерб, наносимый вырубкой леса</div>
+										<div class="damage-title" aos-init aos-animate" data-aos-once="true" data-aos-duration="600" data-aos="fade-left" data-aos-delay="450">Ущерб, наносимый вырубкой леса</div>
 										<div class="damage-line"></div>
-                    <div class="damage-text">
+                    <div class="damage-text" aos-init aos-animate" data-aos-once="true" data-aos-duration="600" data-aos="fade" data-aos-delay="450">
 											Несмотря на то, что леса являются возобновляемым ресурсом, скорость их вырубки слишком высока
 											и не покрывается скоростью воспроизводства. Ежегодно уничтожаются миллионы гектаров лиственных и хвойных
 											лесов.
 										</div>
-										<div class="damage-text">
+										<div class="damage-text" aos-init aos-animate" data-aos-once="true" data-aos-duration="600" data-aos="fade" data-aos-delay="450">
 											Тропические леса, в которых обитает более 50 % существующих на Земле видов, раньше покрывали 14 % планеты, а
 											теперь только 6 %. Лесные массивы Индии сократились по площади с 22 до 10 % за последние полвека.
 											Уничтожаются хвойные леса центральных районов России, массивы лесов на Дальнем Востоке и в Сибири, а на месте
 											вырубок возникают болота. Вырубают ценные сосновые
 											и кедровые леса.
 										</div>
-										<div class="damage-text">
+										<div class="damage-text" aos-init aos-animate" data-aos-once="true" data-aos-duration="600" data-aos="fade" data-aos-delay="450">
 											<div class="damage-arrow-down">
 												Сжигание лесов вызывает загрязнение воздуха окисью углерода, его выбрасывается больше, чем поглощается.
 												Также
@@ -147,12 +150,12 @@
 								</div>
 								</div>
 							<div class="damage-numbers">
-								<div class="damage-block">
+								<div class="damage-block" aos-init aos-animate" data-aos-once="true" data-aos-duration="600" data-aos-offset ="300" data-aos="zoom-in" data-aos-delay="450">
 									<span class="number-important">-7%</span>
 									<div class="damage-subtitle">Тропических лесов</div>
 								</div>
 								<div class="damage-line"></div>
-								<div class="damage-block">
+								<div class="damage-block" aos-init aos-animate" data-aos-once="true" data-aos-duration="600" data-aos-offset ="300" data-aos="zoom-in" data-aos-delay="450">
 									<span class="number-important">-12%</span>
 									<div class="damage-subtitle">Площадь лесов в Индии</div>
 								</div>
@@ -165,37 +168,71 @@
 <section class="solve-problems" id="forest-4">
 	<div class="wrapper">
 		<div class="headline">
-			<div class="headline-img"><img src="img/plant-img.jpg" alt="plant-img"></div>
+			<div class="headline-img" aos-init aos-animate" data-aos="zoom-in" data-aos-once="true" data-aos-duration="600" data-aos-delay="350">
+				<picture>
+        		<source srcset="img/webp/plant-img.webp" type="image/webp">
+        		<img src="img/jpg[png]/plant-img.jpg" alt="img-plants"></div>
+			</picture>
 			<div class="headline-disk">
-				<div class="headline-title">Как сократить ущерб?</div>
-				<div class="headline-subtitle" id="betony">Для того чтобы остановить процесс истребления лесов, следует
+				<div class="headline-title" aos-init aos-animate" data-aos="fade-left" data-aos-once="true" data-aos-duration="600" data-aos-delay="350">Как сократить ущерб?</div>
+				<div class="headline-subtitle" id="betony" aos-init aos-animate" data-aos="fade-down" data-aos-once="true" data-aos-duration="600" data-aos-delay="450">Для того чтобы остановить процесс истребления лесов, следует
 					разработать нормы разумного использования ресурсов леса. Необходимо придерживаться следующих направлений:
 				</div>
 			</div>
 		</div>
 		<div class="features">
-			<div class="feature-card">
-				<div class="features-card-img"><img src="img/features/growth.png" alt=""></div>
+			<div class="feature-card" aos-init aos-animate" data-aos="fade-right" data-aos-once="true" data-aos-duration="600" data-aos-delay="450">
+				<div class="features-card-img">
+					<picture>
+        		<source srcset="img/webp/growth.webp" type="image/webp">
+        		<img src="img/jpg[png]/growth.png" alt="smoke-forest">
+					</picture>
+				</div>
 				<div class="features-card-desc">Сохранение ландшафтов леса <br> и его биологического разнообразия</div>
 			</div>
-			<div class="feature-card">
-				<div class="features-card-img"><img src="img/features/leaf.png" alt=""></div>
+			<div class="feature-card" aos-init aos-animate" data-aos="fade-right" data-aos-once="true" data-aos-duration="600" data-aos-delay="450">
+				<div class="features-card-img">
+					<picture>
+        		<source srcset="img/webp/leaf.webp" type="image/webp">
+        		<img src="img/jpg[png]/leaf.png" alt="smoke-forest">
+					</picture>
+				</div>
 				<div class="features-card-desc">Ведение равномерного лесопользования <br> без истощения ресурсов леса</div>
 			</div>
-			<div class="feature-card">
-				<div class="features-card-img"><img src="img/features/planting.png" alt=""></div>
+			<div class="feature-card" aos-init aos-animate" data-aos="fade-right" data-aos-once="true" data-aos-duration="600" data-aos-delay="450">
+				<div class="features-card-img">
+					<picture>
+        		<source srcset="img/webp/planting.webp" type="image/webp">
+        		<img src="img/jpg[png]/planting.png" alt="smoke-forest">
+					</picture>
+				</div>
 				<div class="features-card-desc">Обучение населения навыкам <br> бережного отношению к лесу</div>
 			</div>
-			<div class="feature-card">
-				<div class="features-card-img"><img src="img/features/view.png" alt=""></div>
+			<div class="feature-card" aos-init aos-animate" data-aos-offset="300" data-aos="fade-left" data-aos-once="true" data-aos-duration="600" data-aos-delay="450">
+				<div class="features-card-img">
+					<picture>
+        		<source srcset="img/webp/view.webp" type="image/webp">
+        		<img src="img/jpg[png]/view.png" alt="smoke-forest">
+					</picture>
+				</div>
 				<div class="features-card-desc">Создание систем учета <br> и мониторинга лесов</div>
 			</div>
-			<div class="feature-card">
-				<div class="features-card-img"><img src="img/features/shield.png" alt=""></div>
+			<div class="feature-card" aos-init aos-animate" data-aos-offset="300"data-aos="fade-left" data-aos-once="true" data-aos-duration="600" data-aos-delay="450">
+				<div class="features-card-img">
+					<picture>
+        		<source srcset="img/webp/shield.webp" type="image/webp">
+        		<img src="img/jpg[png]/shield.png" alt="smoke-forest">
+					</picture>
+				</div>
 				<div class="features-card-desc">Усиление на уровне государства контроля за сохранением и использованием лесных ресурсов</div>
 			</div>
-			<div class="feature-card">
-				<div class="features-card-img"><img src="img/features/innovation.png" alt=""></div>
+			<div class="feature-card" aos-init aos-animate" data-aos-offset="300" data-aos="fade-left" data-aos-once="true" data-aos-duration="600" data-aos-delay="450">
+				<div class="features-card-img">
+					<picture>
+        		<source srcset="img/webp/innovation.webp" type="image/webp">
+        		<img src="img/jpg[png]/innovation.png" alt="smoke-forest">
+					</picture>
+				</div>
 				<div class="features-card-desc">Совершенствование лесного <br> законодательства </div>
 			</div>
 		</div>
@@ -205,7 +242,7 @@
 <section class="section">
 	<div class="forest-content">
 		<div class="wrapper">
-			<div class="forest-paragraphs-left">
+			<div class="forest-paragraphs-left" aos-init aos-animate" data-aos-once="true" data-aos-duration="600" data-aos="fade-right" data-aos-once="true" data-aos-delay="450">
 				<div class="forest-paragraph" id="betony">
 					Человек не может существовать вне природы, он часть ее. И в то же время сложно
 					представить н нашу цивилизацию без тех продуктов, которые дает лес. Помимо материальной
@@ -224,33 +261,32 @@
 				</div>
 			</div>
 		</div>
-		<div class="forest-img-right">
+		
+		<div class="forest-img-right" aos-init aos-animate" data-aos="fade-up" data-aos-once="true" data-aos-duration="600" data-aos-delay="350">
 		<picture>
-			<source srcset="img/greenforest.webp" type="image/webp">
-			<img src="img/greenforest.jpg" alt="img-plants">
+			<source srcset="img/webp/greenforest.webp" type="image/webp">
+			<img src="img/jpg[png]/greenforest.jpg" alt="img-plants">
 		</picture>
 		</div>
 </section>
 
 <section class="support-people" id="forest-5">
 	<div class="wrapper-support">
-		<div class="support-header">Вклад известных личностей</div>
+		<div class="support-header" aos-init aos-animate" data-aos="fade-right" data-aos-once="true" data-aos-duration="600" data-aos-delay="350">Вклад известных личностей</div>
 	<!-- Slider main container -->
 	<div class="swiper-container">
 		<!-- Additional required wrapper -->
 		<div class="swiper-wrapper">
 			<!-- Slides -->
-			<div class="swiper-slide">
+			<div class="swiper-slide" aos-init aos-animate" data-aos="flip-left" data-aos-offset="200" data-aos-once="true" data-aos-duration="1500" data-aos-delay="350">
 				<div class="support">
 					<div class="support-img-1"></div>
 					<div class="support-card">
 						<div class="support-title">Брэд Питт</div>
 						<div class="support-line"></div>
 						<div class="support-description">Ежегодно выделяет около 5 млн. долларов на строительство экологически чистых
-							домов
-							и 3 миллиона на защиту лесов. Постоянно выступает на конференциях, посвященных проблемам глобального
-							потепления и
-							загрязнения воздуха.</div>
+							домов и 3 миллиона на защиту лесов. Постоянно выступает на конференциях, посвященных проблемам глобального
+							потепления и загрязнения воздуха.</div>
 					</div>
 				</div>
 			</div>
@@ -292,7 +328,44 @@
 	</div>
 </section>
 
-</body>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 <!-- Подключаем Jquery -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <!-- Подключаем JS -->

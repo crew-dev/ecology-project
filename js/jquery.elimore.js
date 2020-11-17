@@ -1,15 +1,3 @@
-/*!
- * jQuery.Elimore
- * http://github.com/luftinur/jquery.elimore
- * --------------------------------------------------------------------------
- * Copyright (c) 2018 Lufti Nurfahmi (@luftinur)
- * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
- *
- * Create Ellipsis Of Text
- * Change Log add options data url
- */
 if (typeof Object.create !== 'function') {
     Object.create = function (obj) {
         function _O() { };
