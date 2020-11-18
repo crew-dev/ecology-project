@@ -624,7 +624,9 @@ li.number-timeline-active::before {
 		margin-top: 200px;
 		margin-left: 30px;
 	}
-
+	.main-wrapper {
+		height: 60%;
+	}
 	.intro-title {
 		font-size: 46px;
 		line-height: 1.2;
