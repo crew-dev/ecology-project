@@ -58,6 +58,7 @@ img {
 	display: flex;
 	width: 1170px;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .container-img {
