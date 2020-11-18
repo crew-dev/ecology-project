@@ -57,6 +57,7 @@ img {
 .content {
 	display: flex;
 	width: 1170px;
+	padding: 0 30px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -523,10 +524,6 @@ li.number-timeline-active::before {
 		width: 43%;
 		padding-right: 30px;
 	}
-	
-	.content {
-		padding: 11em 3em;
-	}
 
 	.forest-paragraphs-left {
 		margin-left: 50px;
@@ -547,9 +544,6 @@ li.number-timeline-active::before {
 }
 
 @media (max-width: 880px) {
-	.content {
-		padding: 0em;
-	}
 	.feature-card {
     flex-basis: 300px;
 }
@@ -566,10 +560,6 @@ li.number-timeline-active::before {
 	}
 	.intro-subtitle {
 		font-size: 21px;
-	}
-	.inner-content {
-		margin-top: 335px;
-		margin-left: 120px;
 	}
 	.header-main {
 		font-size: 26px;
@@ -604,10 +594,6 @@ li.number-timeline-active::before {
 	.arrow-down {
 		left: 42%;
 	}
-	.inner-content {
-		margin-top: 200px;
-		margin-left: 40px;
-	}
 	.intro-subtitle {
 		font-size: 18px;
 	}
@@ -620,13 +606,6 @@ li.number-timeline-active::before {
 }
 
 @media (max-width: 768px) {
-	.inner-content {
-		margin-top: 200px;
-		margin-left: 30px;
-	}
-	.main-wrapper {
-		height: 60%;
-	}
 	.intro-title {
 		font-size: 46px;
 		line-height: 1.2;
@@ -689,10 +668,6 @@ li.number-timeline-active::before {
 	.damage-info {
 		margin-top: 0px;
 	}
-	.inner-content {
-		margin-top: 200px;
-		margin-left: 25px;
-	}
 	.forest-img-left {
 		width: 100%;
 		max-height: 440px;
@@ -726,18 +701,11 @@ li.number-timeline-active::before {
 		font-size: 37px;
 		line-height: 1.2;
 	}
-
 	.damage-wrapper {
 		padding: 32px;
 	}
-
 	.intro-subtitle {
 		font-size: 16px;
-	}
-
-	.inner-content {
-		margin-top: 200px;
-		margin-left: 20px;
 	}
 	.support-title {
 		font-size: 25px;
