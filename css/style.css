@@ -261,7 +261,7 @@ img {
 }
 
 .damage-full-img {
-    background: url('../img/jpg[png]/damage.jpg') no-repeat;
+    background: url('../img/jpg/damage.jpg') no-repeat;
     background-size: cover;
     width: 100%;
     position: relative;
@@ -456,7 +456,7 @@ img {
 	height: 260px;
 	margin-right: 100px;
 	background-color: #fff;
-	background-image: url(../img/jpg[png]/pitt.jpg);
+	background-image: url(../img/jpg/pitt.jpg);
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-size: 100%;
@@ -468,7 +468,7 @@ img {
 	height: 260px;
 	margin-right: 100px;
 	background-color: #fff;
-	background-image: url(../img/jpg[png]/di\ caprio.jpeg);
+	background-image: url(../img/jpg/di\ caprio.jpeg);
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-size: 100%;
@@ -480,7 +480,7 @@ img {
 	height: 260px;
 	margin-right: 100px;
 	background-color: #fff;
-	background-image: url(../img/jpg[png]/edrian.jpg);
+	background-image: url(../img/jpg/edrian.jpg);
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-size: 100%;
