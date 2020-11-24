@@ -802,7 +802,9 @@ margin-bottom: 28px;
 		width: 100%;
 		object-fit: contain;
 	}
-	.feedback-box-form form button {
+	.feedback-box-form form button,
+	.feedback-box-form form button:hover,
+	.feedback-box-form form button:focus {
 		padding: 15px 25px;
 	}
 	.feedback-title {
