@@ -669,7 +669,7 @@ margin-bottom: 28px;
 	 width: 23px;
 	 height: 23px;
 	 margin-right: 8px;
-	 background-image: url(/img/svg/lock.svg);
+	 background-image: url(../img/svg/lock.svg);
 	 background-repeat: no-repeat;
 	 background-position: center;
 }
@@ -720,7 +720,7 @@ margin-bottom: 28px;
 	margin: 0 15px 0px 0px;
  width: 20px;
  height: 20px;
- background-image: url(/img/svg/call.svg);
+ background-image: url(../img/svg/call.svg);
  background-repeat: no-repeat;
 }
 
@@ -731,7 +731,7 @@ margin-bottom: 28px;
 	margin: 0 15px 0px 0px;
 	width: 20px;
 	height: 20px;
-	background-image: url(/img/svg/mail.svg);
+	background-image: url(../img/svg/mail.svg);
 	background-repeat: no-repeat;
 }
 
@@ -744,7 +744,7 @@ margin-bottom: 28px;
 	font-size: 14px;
 	font-weight: bold;
 	background-position: center;
-	background-image: url(/img/svg/pin.svg);
+	background-image: url(../img/svg/pin.svg);
 	background-repeat: no-repeat;
 }
 
