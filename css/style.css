@@ -545,7 +545,7 @@ img {
 .feedback-box-form {
 	width: 460px;
 	max-height: 310px;
-	padding: 35px;
+  padding: 40px;
 	background: #fff;
 	box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
 	margin: 20px;
@@ -678,7 +678,7 @@ margin-bottom: 28px;
 .feedback-box-call {
 	width: 460px;
 	max-height: 200px;
-	padding: 35px;
+	padding: 40px;
 	background: #fff;
 	box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
 	margin: 20px;
@@ -688,7 +688,7 @@ margin-bottom: 28px;
 .feedback-box-call:before {
 	width: 460px;
 	height: 200px;
-	padding: 35px;
+	padding: 40px;
 	background: #fff;
 	box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
 	margin: 20px;
@@ -958,6 +958,10 @@ margin-bottom: 28px;
 	.intro-title {
 		font-size: 37px;
 		line-height: 1.2;
+	}
+	.feedback-box-form,
+	.feedback-box-call {
+		padding: 35px;
 	}
 	.damage-wrapper {
 		padding: 32px;
