@@ -73,7 +73,7 @@ img {
 }
 
 .inner-content {
-    color: #fff;
+		color: #fff;
 }
 
 .intro-title {
@@ -87,8 +87,8 @@ img {
 .intro-subtitle {
     color: rgb(231, 231, 231);
     margin-top: 22px;
-    font-family: 'HelveticaNeueCyr';
-    font-weight: 300;
+		font-family: 'Garamond Premier Pro';
+		font-size: 20px;
 }
 
 /* timeline */
@@ -114,7 +114,7 @@ img {
 .number-timeline-active::before {
     content: "";
     width: 22px;
-    float: left;
+    float: right;
     height: 2px;
     margin: 12px;
     background-color: #fff;
@@ -135,7 +135,7 @@ img {
     border: 2px solid #fff;
     background-color: transparent;
     color: #fff;
-    padding: 12px;
+    padding: 14px;
     outline: none;
     cursor: pointer;
     font-family: 'HelveticaNeueCyr';
