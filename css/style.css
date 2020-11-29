@@ -14,6 +14,15 @@ a {
     text-decoration: none;
 }
 
+.active:before {
+	content: "";
+	width: 25px;
+	float: left;
+	height: 2px;
+	margin: 12px;
+	background-color: #fff;
+}
+
 .elimore_hide {
 	padding: 8px;
 	width: 2px;
@@ -120,16 +129,6 @@ img {
 		font-size: 18px;
 }
 
-.number-timeline-active::before {
-    content: "";
-    width: 25px;
-    float: left;
-    height: 2px;
-    margin: 12px;
-    background-color: #fff;
-}
-
-.number-timeline:active::before,
 .number-timeline:hover::before {
     content: "";
     width: 22px;
@@ -172,18 +171,22 @@ img {
 
 .arrow-down {
     opacity: .3;
-    -webkit-animation: blink1 1.18s ease-in-out 0.8s infinite;
-    animation: blink1 1.18s ease-in-out 0.8s infinite;
+    -webkit-animation: blink 1s ease-in-out 0.8s infinite;
+    animation: blink 1s ease-in-out 0.8s infinite;
 }
 
 @keyframes blink {
     0% {
-        opacity: 0.3;
-    }
-
-    100% {
-        opacity: 1;
-    }
+        opacity: 0.2;
+		}
+		
+		 60% {
+		 	opacity: 0.6;
+		 }
+		
+		100% {
+			opacity: 1;
+		}
 }
 
 .wrapper-paragraph {
