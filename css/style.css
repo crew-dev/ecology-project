@@ -160,13 +160,13 @@ img {
     bottom: 12px;
 }
 
-.arrow-down__blink-1 {
+.arrow-down {
     opacity: .3;
     -webkit-animation: blink1 1.18s ease-in-out 0.8s infinite;
     animation: blink1 1.18s ease-in-out 0.8s infinite;
 }
 
-@keyframes blink1 {
+@keyframes blink {
     0% {
         opacity: 0.3;
     }
@@ -841,9 +841,6 @@ margin-bottom: 28px;
 	.forest-paragraphs-right {
 		margin: 25px 20px;
 		order: 2;
-	}
-	.arrow-down {
-		left: 42%;
 	}
 	.intro-subtitle {
 		font-size: 18px;
