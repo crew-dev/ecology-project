@@ -1,17 +1,10 @@
 	var instance = new vidbg('#video', {
+	poster: "video/video-poster.jpg",
   mp4: "video/forest.mp4", 
   webm: "video/forest.webm", 
-  poster: "video/video-poster.jpg",
 }, {
   playsInline: true
 })
-
-	AOS.init({
-    disable: function() {
-      var maxWidth = 768;
-      return window.innerWidth < maxWidth;
-    }
-	});
 	
 $(function(){
 $(".damage-arrow-down").elimore({
