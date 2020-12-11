@@ -1028,6 +1028,12 @@ margin-bottom: 28px;
 		.feedback-box-call {
 			width: auto;
 		}
+		.feedback {
+			padding: 160px 0 90px;
+		}
+		.footer {
+			padding-bottom: 25px;
+		}
 		.footer-content {
 			flex-direction: column;
 		}
