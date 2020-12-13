@@ -1010,8 +1010,9 @@ margin-bottom: 28px;
 		max-width: 50px;
 	}
 	.footer-text {
-		width: 174px;
+		width: 215px;
 		font-size: 12px;
+		text-align: center;
 	}
 	.damage-content {
 		flex-direction: column;
