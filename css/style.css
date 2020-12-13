@@ -717,6 +717,23 @@ margin-bottom: 28px;
 	align-items: center;
 	font-size: 16px;
 	margin: 18px;
+	position: relative;
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.feedback-phone:after a,
+.feedback-email a {
+	color: #303C26;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	margin: 18px;
+	position: relative;
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: none;
 }
 
 .feedback-phone:hover a,
@@ -725,7 +742,7 @@ margin-bottom: 28px;
 	display: flex;
 	align-items: center;
 	font-size: 16px;
-	text-decoration: underline;
+	text-decoration: underline 2px solid #7DA973;
 }
 
 .feedback-phone:before {
@@ -825,14 +842,38 @@ margin-bottom: 28px;
 	background-repeat: no-repeat;
 }
 
-.footer-copyright {
-	width: 203px;
+.footer-text {
+	width: 250px;
 	font-size: 14px;
 }
 
-.footer-text {
-	width: 220px;
-	font-size: 14px;
+.footer-link {
+	color: #5D6062;
+}
+
+.footer-link {
+	position: relative;
+	color: #7DA973;
+	cursor: pointer;
+	font-weight: 500;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.footer-link:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #7DA973;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.footer-link:hover:after,
+.footer-link:focus:after {
+	width: 100%;
 }
 
 @media (max-width: 1280px) {
@@ -968,7 +1009,7 @@ margin-bottom: 28px;
 		max-width: 50px;
 		max-width: 50px;
 	}
-	.footer-copyright {
+	.footer-text {
 		width: 174px;
 		font-size: 12px;
 	}
