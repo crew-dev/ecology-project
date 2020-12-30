@@ -1017,7 +1017,6 @@ margin-bottom: 28px;
 	.footer-text {
 		width: 215px;
 		font-size: 12px;
-		text-align: center;
 	}
 	.damage-content {
 		flex-direction: column;
@@ -1080,6 +1079,11 @@ margin-bottom: 28px;
 		.footer {
 			padding-bottom: 32px;
 		}
+		.footer-text {
+		width: 215px;
+		font-size: 12px;
+		text-align: center;
+	}
 		.footer-content {
 			flex-direction: column;
 		}
