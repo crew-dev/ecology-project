@@ -12,6 +12,7 @@ maxLength: 120,
 });
 });
 
+
 var mySwiper = new Swiper('.swiper-container', {
 	spaceBetween: 30,
   loop: true,
