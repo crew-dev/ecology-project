@@ -649,7 +649,7 @@ margin-bottom: 28px;
 .feedback-box-form form button {
 	padding: 15px 35px;
 	color: #ffffff;
-	background: #47B948;
+	background: #7DA973;
 	font-size: 18px;
 	text-decoration: none;
 	transition: 0.3s;
@@ -661,7 +661,7 @@ margin-bottom: 28px;
 .feedback-box-form form button:focus {
 	padding: 15px 35px;
 	color: #fff;
-	background: #348d36;
+	background: #658f5c;
 	font-size: 18px;
 	text-decoration: none;
 	transition: 0.3s;
